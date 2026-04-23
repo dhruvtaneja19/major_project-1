@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/mapf_planner/mapf_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapf_planner/mapf_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/mapf_planner/mapf_planner.egg-info/entry_points.txt
+writing requirements to ../../build/mapf_planner/mapf_planner.egg-info/requires.txt
+writing top-level names to ../../build/mapf_planner/mapf_planner.egg-info/top_level.txt
+reading manifest file '../../build/mapf_planner/mapf_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/mapf_planner/mapf_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mapf_planner/planner.py -> /home/dhruv/mapf_ws/build/mapf_planner/build/lib/mapf_planner
+running install
+running install_lib
+copying /home/dhruv/mapf_ws/build/mapf_planner/build/lib/mapf_planner/planner.py -> /home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages/mapf_planner
+byte-compiling /home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages/mapf_planner/planner.py to planner.cpython-310.pyc
+running install_data
+copying config/aco_params.yaml -> /home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/config
+running install_egg_info
+removing '/home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages/mapf_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mapf_planner/mapf_planner.egg-info to /home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages/mapf_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mapf_planner script to /home/dhruv/mapf_ws/install/mapf_planner/lib/mapf_planner
+writing list of installed files to '/home/dhruv/mapf_ws/build/mapf_planner/install.log'

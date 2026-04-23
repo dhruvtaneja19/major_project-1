@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/task_allocator/task_allocator.egg-info
+writing ../../build/task_allocator/task_allocator.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_allocator/task_allocator.egg-info/dependency_links.txt
+writing entry points to ../../build/task_allocator/task_allocator.egg-info/entry_points.txt
+writing requirements to ../../build/task_allocator/task_allocator.egg-info/requires.txt
+writing top-level names to ../../build/task_allocator/task_allocator.egg-info/top_level.txt
+writing manifest file '../../build/task_allocator/task_allocator.egg-info/SOURCES.txt'
+reading manifest file '../../build/task_allocator/task_allocator.egg-info/SOURCES.txt'
+writing manifest file '../../build/task_allocator/task_allocator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dhruv/mapf_ws/build/task_allocator/build
+creating /home/dhruv/mapf_ws/build/task_allocator/build/lib
+creating /home/dhruv/mapf_ws/build/task_allocator/build/lib/task_allocator
+copying task_allocator/allocator.py -> /home/dhruv/mapf_ws/build/task_allocator/build/lib/task_allocator
+copying task_allocator/__init__.py -> /home/dhruv/mapf_ws/build/task_allocator/build/lib/task_allocator
+running install
+running install_lib
+creating /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator
+copying /home/dhruv/mapf_ws/build/task_allocator/build/lib/task_allocator/allocator.py -> /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator
+copying /home/dhruv/mapf_ws/build/task_allocator/build/lib/task_allocator/__init__.py -> /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator
+byte-compiling /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator/allocator.py to allocator.cpython-310.pyc
+byte-compiling /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dhruv/mapf_ws/install/task_allocator/share/ament_index
+creating /home/dhruv/mapf_ws/install/task_allocator/share/ament_index/resource_index
+creating /home/dhruv/mapf_ws/install/task_allocator/share/ament_index/resource_index/packages
+copying resource/task_allocator -> /home/dhruv/mapf_ws/install/task_allocator/share/ament_index/resource_index/packages
+copying package.xml -> /home/dhruv/mapf_ws/install/task_allocator/share/task_allocator
+running install_egg_info
+Copying ../../build/task_allocator/task_allocator.egg-info to /home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages/task_allocator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing task_allocator script to /home/dhruv/mapf_ws/install/task_allocator/lib/task_allocator
+writing list of installed files to '/home/dhruv/mapf_ws/build/task_allocator/install.log'

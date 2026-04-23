@@ -1,0 +1,10 @@
+mapf_planner:
+  ros__parameters:
+    num_robots: 3
+    energy_weight: 0.3
+    aco_ant_count: 36
+    aco_iterations: 30
+    aco_alpha: 1.0
+    aco_beta: 2.8
+    aco_evaporation: 0.18
+    aco_deposit_scale: 48.0

@@ -1,0 +1,3 @@
+[console_scripts]
+task_allocator = task_allocator.allocator:main
+

@@ -1,0 +1,383 @@
+[0.611s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.611s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77f70490d4e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77f704ac21d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77f704ac21d0>>)
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.058s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dhruv/mapf_ws'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[1.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_python' and name 'bringup'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ignore'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ignore_ament_install'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['colcon_pkg']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'colcon_pkg'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['colcon_meta']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ros'
+[1.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapf_planner' with type 'ros.ament_python' and name 'mapf_planner'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[1.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_python' and name 'robot_controller'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extensions ['ignore', 'ignore_ament_install']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extension 'ignore'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extension 'ignore_ament_install'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extensions ['colcon_pkg']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extension 'colcon_pkg'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extensions ['colcon_meta']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extension 'colcon_meta'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extensions ['ros']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_allocator) by extension 'ros'
+[1.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task_allocator' with type 'ros.ament_python' and name 'task_allocator'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extensions ['ignore', 'ignore_ament_install']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extension 'ignore'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extension 'ignore_ament_install'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extensions ['colcon_pkg']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extension 'colcon_pkg'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extensions ['colcon_meta']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extension 'colcon_meta'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extensions ['ros']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_description) by extension 'ros'
+[1.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_description' with type 'ros.ament_python' and name 'warehouse_description'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extensions ['colcon_pkg']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extension 'colcon_meta'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extensions ['ros']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_gazebo) by extension 'ros'
+[1.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_gazebo' with type 'ros.ament_python' and name 'warehouse_gazebo'
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/warehouse_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/warehouse_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/task_allocator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/robot_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dhruv/mapf_ws/install/mapf_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dhruv/mapf_ws/install
+[1.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 368 installed packages in /opt/ros/humble
+[1.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.258s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/bringup', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.259s] DEBUG:colcon.colcon_core.verb:Building package 'mapf_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/mapf_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/mapf_planner', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/mapf_planner', 'symlink_install': False, 'test_result_base': None}
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.260s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/robot_controller', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_target' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_clean_first' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'cmake_force_configure' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'ament_cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'task_allocator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.261s] DEBUG:colcon.colcon_core.verb:Building package 'task_allocator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/task_allocator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/task_allocator', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/task_allocator', 'symlink_install': False, 'test_result_base': None}
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_target' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.261s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/warehouse_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/warehouse_description', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/warehouse_description', 'symlink_install': False, 'test_result_base': None}
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'warehouse_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.262s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhruv/mapf_ws/build/warehouse_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhruv/mapf_ws/install/warehouse_gazebo', 'merge_install': False, 'path': '/home/dhruv/mapf_ws/src/warehouse_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.262s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/bringup' with build type 'ament_python'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[1.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[1.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/mapf_planner' with build type 'ament_python'
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapf_planner', 'ament_prefix_path')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/ament_prefix_path.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/ament_prefix_path.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/ament_prefix_path.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.325s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/robot_controller' with build type 'ament_python'
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'ament_prefix_path')
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/task_allocator' with build type 'ament_python'
+[1.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_allocator', 'ament_prefix_path')
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/ament_prefix_path.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/ament_prefix_path.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/ament_prefix_path.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/bringup'
+[1.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.044s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/mapf_planner'
+[2.045s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.367s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/robot_controller'
+[2.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.694s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/task_allocator'
+[2.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/task_allocator': PYTHONPATH=/home/dhruv/mapf_ws/build/task_allocator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_allocator build --build-base /home/dhruv/mapf_ws/build/task_allocator/build install --record /home/dhruv/mapf_ws/build/task_allocator/install.log --single-version-externally-managed install_data
+[4.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/mapf_planner': PYTHONPATH=/home/dhruv/mapf_ws/build/mapf_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapf_planner build --build-base /home/dhruv/mapf_ws/build/mapf_planner/build install --record /home/dhruv/mapf_ws/build/mapf_planner/install.log --single-version-externally-managed install_data
+[4.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/robot_controller': PYTHONPATH=/home/dhruv/mapf_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/dhruv/mapf_ws/build/robot_controller/build install --record /home/dhruv/mapf_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[4.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/bringup': PYTHONPATH=/home/dhruv/mapf_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/dhruv/mapf_ws/build/bringup/build install --record /home/dhruv/mapf_ws/build/bringup/install.log --single-version-externally-managed install_data
+[5.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/task_allocator' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/task_allocator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_allocator build --build-base /home/dhruv/mapf_ws/build/task_allocator/build install --record /home/dhruv/mapf_ws/build/task_allocator/install.log --single-version-externally-managed install_data
+[5.743s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator' for CMake module files
+[5.743s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator' for CMake config files
+[5.744s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator/lib'
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator/bin'
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator/lib/pkgconfig/task_allocator.pc'
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator/lib/python3.10/site-packages'
+[5.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_allocator', 'pythonpath')
+[5.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/pythonpath.ps1'
+[5.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/pythonpath.dsv'
+[5.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/hook/pythonpath.sh'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/task_allocator/bin'
+[5.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_allocator)
+[5.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/package.ps1'
+[5.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/package.dsv'
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/package.sh'
+[5.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/package.bash'
+[5.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/task_allocator/share/task_allocator/package.zsh'
+[5.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/task_allocator/share/colcon-core/packages/task_allocator)
+[5.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/warehouse_description' with build type 'ament_python'
+[5.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_description', 'ament_prefix_path')
+[5.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/ament_prefix_path.ps1'
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/ament_prefix_path.dsv'
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/ament_prefix_path.sh'
+[5.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.826s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup' for CMake module files
+[5.826s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup' for CMake config files
+[5.827s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup/lib'
+[5.827s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup/bin'
+[5.827s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup/lib/pkgconfig/bringup.pc'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages'
+[5.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[5.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/pythonpath.ps1'
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/pythonpath.dsv'
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/bringup/share/bringup/hook/pythonpath.sh'
+[5.845s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/bringup/bin'
+[5.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/bringup' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/dhruv/mapf_ws/build/bringup/build install --record /home/dhruv/mapf_ws/build/bringup/install.log --single-version-externally-managed install_data
+[5.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[5.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/bringup/share/bringup/package.ps1'
+[5.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/bringup/share/bringup/package.dsv'
+[5.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/bringup/share/bringup/package.sh'
+[5.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/bringup/share/bringup/package.bash'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/bringup/share/bringup/package.zsh'
+[5.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/bringup/share/colcon-core/packages/bringup)
+[5.861s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhruv/mapf_ws/src/warehouse_gazebo' with build type 'ament_python'
+[5.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_gazebo', 'ament_prefix_path')
+[5.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/ament_prefix_path.ps1'
+[5.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/ament_prefix_path.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/ament_prefix_path.sh'
+[5.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner' for CMake module files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner' for CMake config files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner/lib'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner/bin'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner/lib/pkgconfig/mapf_planner.pc'
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages'
+[5.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapf_planner', 'pythonpath')
+[5.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/mapf_planner' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/mapf_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/mapf_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapf_planner build --build-base /home/dhruv/mapf_ws/build/mapf_planner/build install --record /home/dhruv/mapf_ws/build/mapf_planner/install.log --single-version-externally-managed install_data
+[5.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/pythonpath.ps1'
+[5.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/pythonpath.dsv'
+[5.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/hook/pythonpath.sh'
+[5.920s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/mapf_planner/bin'
+[5.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapf_planner)
+[5.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/package.ps1'
+[5.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/package.dsv'
+[5.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/package.sh'
+[5.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/package.bash'
+[5.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/mapf_planner/share/mapf_planner/package.zsh'
+[5.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/mapf_planner/share/colcon-core/packages/mapf_planner)
+[6.496s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/warehouse_description'
+[6.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.523s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller' for CMake module files
+[6.524s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller' for CMake config files
+[6.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/robot_controller' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/dhruv/mapf_ws/build/robot_controller/build install --record /home/dhruv/mapf_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller/lib'
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller/bin'
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[6.528s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller/lib/python3.10/site-packages'
+[6.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'pythonpath')
+[6.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/pythonpath.ps1'
+[6.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/pythonpath.dsv'
+[6.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/hook/pythonpath.sh'
+[6.530s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/robot_controller/bin'
+[6.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[6.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/package.ps1'
+[6.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/package.dsv'
+[6.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/package.sh'
+[6.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/package.bash'
+[6.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/robot_controller/share/robot_controller/package.zsh'
+[6.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[7.133s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhruv/mapf_ws/src/warehouse_gazebo'
+[7.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/warehouse_description': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_description build --build-base /home/dhruv/mapf_ws/build/warehouse_description/build install --record /home/dhruv/mapf_ws/build/warehouse_description/install.log --single-version-externally-managed install_data
+[7.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhruv/mapf_ws/src/warehouse_gazebo': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_gazebo build --build-base /home/dhruv/mapf_ws/build/warehouse_gazebo/build install --record /home/dhruv/mapf_ws/build/warehouse_gazebo/install.log --single-version-externally-managed install_data
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description' for CMake module files
+[8.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/warehouse_description' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_description build --build-base /home/dhruv/mapf_ws/build/warehouse_description/build install --record /home/dhruv/mapf_ws/build/warehouse_description/install.log --single-version-externally-managed install_data
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description' for CMake config files
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description/lib'
+[8.091s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description/bin'
+[8.091s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description/lib/pkgconfig/warehouse_description.pc'
+[8.093s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages'
+[8.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_description', 'pythonpath')
+[8.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/pythonpath.ps1'
+[8.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/pythonpath.dsv'
+[8.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/hook/pythonpath.sh'
+[8.098s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_description/bin'
+[8.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_description)
+[8.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/package.ps1'
+[8.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/package.dsv'
+[8.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/package.sh'
+[8.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/package.bash'
+[8.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/package.zsh'
+[8.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/warehouse_description/share/colcon-core/packages/warehouse_description)
+[8.158s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo' for CMake module files
+[8.159s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo' for CMake config files
+[8.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhruv/mapf_ws/src/warehouse_gazebo' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_gazebo build --build-base /home/dhruv/mapf_ws/build/warehouse_gazebo/build install --record /home/dhruv/mapf_ws/build/warehouse_gazebo/install.log --single-version-externally-managed install_data
+[8.160s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo/lib'
+[8.161s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo/bin'
+[8.161s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo/lib/pkgconfig/warehouse_gazebo.pc'
+[8.161s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo/lib/python3.10/site-packages'
+[8.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_gazebo', 'pythonpath')
+[8.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/pythonpath.ps1'
+[8.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/pythonpath.dsv'
+[8.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/hook/pythonpath.sh'
+[8.164s] Level 1:colcon.colcon_core.environment:checking '/home/dhruv/mapf_ws/install/warehouse_gazebo/bin'
+[8.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_gazebo)
+[8.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/package.ps1'
+[8.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/package.dsv'
+[8.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/package.sh'
+[8.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/package.bash'
+[8.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/package.zsh'
+[8.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhruv/mapf_ws/install/warehouse_gazebo/share/colcon-core/packages/warehouse_gazebo)
+[8.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.168s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.197s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.672s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhruv/mapf_ws/install/local_setup.ps1'
+[8.676s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhruv/mapf_ws/install/_local_setup_util_ps1.py'
+[8.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhruv/mapf_ws/install/setup.ps1'
+[8.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhruv/mapf_ws/install/local_setup.sh'
+[8.682s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhruv/mapf_ws/install/_local_setup_util_sh.py'
+[8.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhruv/mapf_ws/install/setup.sh'
+[8.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhruv/mapf_ws/install/local_setup.bash'
+[8.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhruv/mapf_ws/install/setup.bash'
+[8.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhruv/mapf_ws/install/local_setup.zsh'
+[8.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhruv/mapf_ws/install/setup.zsh'

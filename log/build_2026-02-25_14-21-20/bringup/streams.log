@@ -1,0 +1,35 @@
+[3.163s] Invoking command in '/home/dhruv/mapf_ws/src/bringup': PYTHONPATH=/home/dhruv/mapf_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/dhruv/mapf_ws/build/bringup/build install --record /home/dhruv/mapf_ws/build/bringup/install.log --single-version-externally-managed install_data
+[3.993s] running egg_info
+[3.993s] creating ../../build/bringup/bringup.egg-info
+[3.993s] writing ../../build/bringup/bringup.egg-info/PKG-INFO
+[3.993s] writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt
+[3.993s] writing entry points to ../../build/bringup/bringup.egg-info/entry_points.txt
+[3.993s] writing requirements to ../../build/bringup/bringup.egg-info/requires.txt
+[3.993s] writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt
+[3.993s] writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[3.995s] reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[3.995s] writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[3.995s] running build
+[3.995s] running build_py
+[3.995s] creating /home/dhruv/mapf_ws/build/bringup/build
+[3.995s] creating /home/dhruv/mapf_ws/build/bringup/build/lib
+[3.995s] creating /home/dhruv/mapf_ws/build/bringup/build/lib/bringup
+[4.003s] copying bringup/__init__.py -> /home/dhruv/mapf_ws/build/bringup/build/lib/bringup
+[4.003s] running install
+[4.003s] running install_lib
+[4.003s] creating /home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages/bringup
+[4.003s] copying /home/dhruv/mapf_ws/build/bringup/build/lib/bringup/__init__.py -> /home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages/bringup
+[4.003s] byte-compiling /home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages/bringup/__init__.py to __init__.cpython-310.pyc
+[4.003s] running install_data
+[4.003s] creating /home/dhruv/mapf_ws/install/bringup/share/ament_index
+[4.003s] creating /home/dhruv/mapf_ws/install/bringup/share/ament_index/resource_index
+[4.003s] creating /home/dhruv/mapf_ws/install/bringup/share/ament_index/resource_index/packages
+[4.003s] copying resource/bringup -> /home/dhruv/mapf_ws/install/bringup/share/ament_index/resource_index/packages
+[4.003s] copying package.xml -> /home/dhruv/mapf_ws/install/bringup/share/bringup
+[4.009s] creating /home/dhruv/mapf_ws/install/bringup/share/bringup/launch
+[4.010s] copying launch/full_system.launch.py -> /home/dhruv/mapf_ws/install/bringup/share/bringup/launch
+[4.010s] running install_egg_info
+[4.029s] Copying ../../build/bringup/bringup.egg-info to /home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[4.032s] running install_scripts
+[4.121s] writing list of installed files to '/home/dhruv/mapf_ws/build/bringup/install.log'
+[4.569s] Invoked command in '/home/dhruv/mapf_ws/src/bringup' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/dhruv/mapf_ws/build/bringup/build install --record /home/dhruv/mapf_ws/build/bringup/install.log --single-version-externally-managed install_data

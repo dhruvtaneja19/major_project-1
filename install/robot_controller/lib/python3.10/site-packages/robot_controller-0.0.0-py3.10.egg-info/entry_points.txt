@@ -1,0 +1,3 @@
+[console_scripts]
+path_follower = robot_controller.path_follower:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+mapf_planner = mapf_planner.planner:main
+

@@ -1,0 +1,36 @@
+[1.881s] Invoking command in '/home/dhruv/mapf_ws/src/warehouse_description': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_description build --build-base /home/dhruv/mapf_ws/build/warehouse_description/build install --record /home/dhruv/mapf_ws/build/warehouse_description/install.log --single-version-externally-managed install_data
+[2.169s] running egg_info
+[2.169s] creating ../../build/warehouse_description/warehouse_description.egg-info
+[2.169s] writing ../../build/warehouse_description/warehouse_description.egg-info/PKG-INFO
+[2.169s] writing dependency_links to ../../build/warehouse_description/warehouse_description.egg-info/dependency_links.txt
+[2.169s] writing entry points to ../../build/warehouse_description/warehouse_description.egg-info/entry_points.txt
+[2.169s] writing requirements to ../../build/warehouse_description/warehouse_description.egg-info/requires.txt
+[2.169s] writing top-level names to ../../build/warehouse_description/warehouse_description.egg-info/top_level.txt
+[2.169s] writing manifest file '../../build/warehouse_description/warehouse_description.egg-info/SOURCES.txt'
+[2.174s] reading manifest file '../../build/warehouse_description/warehouse_description.egg-info/SOURCES.txt'
+[2.174s] writing manifest file '../../build/warehouse_description/warehouse_description.egg-info/SOURCES.txt'
+[2.174s] running build
+[2.174s] running build_py
+[2.174s] creating /home/dhruv/mapf_ws/build/warehouse_description/build
+[2.174s] creating /home/dhruv/mapf_ws/build/warehouse_description/build/lib
+[2.174s] creating /home/dhruv/mapf_ws/build/warehouse_description/build/lib/warehouse_description
+[2.174s] copying warehouse_description/__init__.py -> /home/dhruv/mapf_ws/build/warehouse_description/build/lib/warehouse_description
+[2.174s] running install
+[2.175s] running install_lib
+[2.186s] creating /home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages/warehouse_description
+[2.186s] copying /home/dhruv/mapf_ws/build/warehouse_description/build/lib/warehouse_description/__init__.py -> /home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages/warehouse_description
+[2.187s] byte-compiling /home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages/warehouse_description/__init__.py to __init__.cpython-310.pyc
+[2.187s] running install_data
+[2.187s] creating /home/dhruv/mapf_ws/install/warehouse_description/share/ament_index
+[2.187s] creating /home/dhruv/mapf_ws/install/warehouse_description/share/ament_index/resource_index
+[2.187s] creating /home/dhruv/mapf_ws/install/warehouse_description/share/ament_index/resource_index/packages
+[2.187s] copying resource/warehouse_description -> /home/dhruv/mapf_ws/install/warehouse_description/share/ament_index/resource_index/packages
+[2.187s] copying package.xml -> /home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description
+[2.187s] creating /home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/urdf
+[2.187s] copying urdf/simple_robot.urdf -> /home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/urdf
+[2.188s] copying urdf/warehouse_robot.urdf -> /home/dhruv/mapf_ws/install/warehouse_description/share/warehouse_description/urdf
+[2.189s] running install_egg_info
+[2.192s] Copying ../../build/warehouse_description/warehouse_description.egg-info to /home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages/warehouse_description-0.0.0-py3.10.egg-info
+[2.193s] running install_scripts
+[2.214s] writing list of installed files to '/home/dhruv/mapf_ws/build/warehouse_description/install.log'
+[2.279s] Invoked command in '/home/dhruv/mapf_ws/src/warehouse_description' returned '0': PYTHONPATH=/home/dhruv/mapf_ws/build/warehouse_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/mapf_ws/install/warehouse_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_description build --build-base /home/dhruv/mapf_ws/build/warehouse_description/build install --record /home/dhruv/mapf_ws/build/warehouse_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/warehouse_gazebo/warehouse_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_gazebo/warehouse_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_gazebo/warehouse_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_gazebo/warehouse_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_gazebo/warehouse_gazebo.egg-info/top_level.txt
+reading manifest file '../../build/warehouse_gazebo/warehouse_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_gazebo/warehouse_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying worlds/smart_warehouse.world -> /home/dhruv/mapf_ws/install/warehouse_gazebo/share/warehouse_gazebo/worlds
+running install_egg_info
+removing '/home/dhruv/mapf_ws/install/warehouse_gazebo/lib/python3.10/site-packages/warehouse_gazebo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/warehouse_gazebo/warehouse_gazebo.egg-info to /home/dhruv/mapf_ws/install/warehouse_gazebo/lib/python3.10/site-packages/warehouse_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dhruv/mapf_ws/build/warehouse_gazebo/install.log'
